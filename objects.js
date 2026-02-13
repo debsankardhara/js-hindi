@@ -26,6 +26,9 @@ console.log(user["full_name"]);
 console.log(user[mysym]);    //it is the access method of the symbol must be follow this syntax
 console.log(typeof user[mysym]);
 
+// delete any attribute
+delete user.location;
+
 
 user.email = "Debsanakr1972@gmail.com";    // how to change the value of the objects
 
