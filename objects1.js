@@ -170,6 +170,18 @@ newObject.course = "CS";
 console.log(newObject);
 console.log(myObject);
 
+// de-structuring in object
+const myObject = {
+  name: "modn",
+  age: 32,
+  roll: 23,
+};
+
+const { age } = myObject;
+
+console.log(age);
+
+
 
 
 
