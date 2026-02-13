@@ -156,3 +156,20 @@ const newObject = {...myObject, name, age };
 console.log(newObject);
 
 
+// copy the reference or both object share the same memory location  tha's why is changes is apply in one object then that will be reflected in other object
+const myObject = {
+  name: "modon",
+  age: 21,
+  email: "modon@gmail.com",
+};
+
+const newObject = myObject;
+
+newObject.course = "CS";
+
+console.log(newObject);
+console.log(myObject);
+
+
+
+
